@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 4</title>
+    <style>
+        header{
+        display: flex; /* Menggunakan Flexbox */
+        align-items: center; /* Pusatkan vertikal */
+        background-color: #333; /* Warna latar belakang */
+        color: #fff; /* Warna teks */
+        padding: 20px; /* Ruang di dalam header */
+        }
+
+        #logo img {
+        max-width: 100px; /* Lebar maksimum untuk gambar logo */
+        }
+
+        #nama-web {
+        margin-left: 20px; /* Ruang antara logo dan judul web */
+        text-align: center;
+        }
+        
+        #nama-web h1 {
+        margin: 0;
+        text-align: center;
+        }
+        nav ul {
+        background-color: antiquewhite;
+        list-style-type: none;
+        padding: 5PX; /* Hilangkan padding default */
+        display: flex; /* Mengatur menu secara horizontal */
+        }
+        nav li {
+        margin-right: 20px; /* Ruang antara item menu */
+        }
+        nav a {
+        text-decoration: none; /* Hapus dekorasi tautan (misalnya, garis bawah) */
+        color: black;
+        }
+        .content {
+        display: flex;
+        flex-direction: row; /* Tata letak horizontal */
+        }
+
+/* Gaya untuk article */
+        article {
+        width: 40%;
+        padding-right: 15%;
+        margin-right: 15%;
+        float: left;
+        background-color: beige;
+        margin-top: 10px;
+        
+        }
+
+aside {
+  width: 100%; /* Menggunakan 100% untuk melebarkan aside agar mengisi lebar halaman */
+  padding-left: 15px;
+  margin-left: 0; /* Menghilangkan margin kiri */
+  float: none; /* Menghapus floating */
+  font-style: italic;
+  background-color: lightgray;
+}
+aside img{
+    width: 200px;
+    height: auto;
+    float: left;
+    padding: 10px; 
+    margin: 5px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: -10px;
+        
+}
+.container{
+    margin-top: 28px;
+
+}
+
+
+
+
+        
+
+    </style>
+</head>
+<body>
+   <header>
+    <div id="logo">
+        <img src="image/logo.png" alt="Logo Situs Anda">
+    </div>
+    <div id="nama-web">
+        <h1>Selamat Datang Di Web Ririn</h1>
+    </div>
+   </header> 
+   <nav>
+    <ul>
+        <li><a href="beranda.html">Beranda</a></li>
+        <li><a href="artikel.html">Artikel</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+    </ul>
+   </nav>
+   <article>
+    <section>
+        <h2>Tentang Saya</h2>
+        <p>hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn  hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn</p>
+    </section>
+    <section>
+        <p>hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn  hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn</p>
+    </section>
+    <section>
+        <p>hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn  hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn hallo saya adalah ririn</p>
+    </section>
+   </article>
+   <aside>
+    <div class="container">
+    <h2>Media</h2>
+    <img src="image/gambar 1.jpg" alt="deskripsi gambar 1">
+    <img src="image/gambar 2.jpg" alt="deskripsi gambar 2">
+</div>
+   </aside>
+   <footer>
+    <p>Hak Cipta © Tahun 2023 by ririn</p>
+   </footer>
+</body>
+</html>
